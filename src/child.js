@@ -12,7 +12,7 @@ function Child() {
 
   const handle_addition = (event) => {
     event.preventDefault();
-    if(Number(newAmount) == 0){
+    if(Number(newAmount) === 0){
       alert("Plese enter valid amount");
       return false;
     }
